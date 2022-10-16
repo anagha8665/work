@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { myservice } from '../service/info-service';
 
 @Component({
   selector: 'app-iot',
@@ -11,8 +12,10 @@ export class IotComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  title="Gadgeon"
   hello(){
-    alert("WELCOME CUSTOMER")
+    const service=new myservice();
+    service.onclickbtn(this.title);
   }
 
 }

@@ -1,0 +1,16 @@
+.one{
+    float: left;
+    margin-left:120px;
+    height: 600px;
+    border: 4px double cyan;
+    margin-top: 40px;
+    
+    
+}
+.img-thumbnail{
+    border-radius: 100%;
+    margin-left:20px;
+    
+    
+}
+
